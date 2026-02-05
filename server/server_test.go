@@ -14,7 +14,7 @@ func TestGreeterService_SayHello(t *testing.T) {
 	if err != nil {
 		t.Fatalf("SayHello failed: %v", err)
 	}
-	if resp.Message != "Hello, World!" {
+	if resp.Message != "Ahoy Matey! Hello, I see your name is World." {
 		t.Errorf("Unexpected message: %s", resp.Message)
 	}
 }
